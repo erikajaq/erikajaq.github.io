@@ -1,6 +1,9 @@
 
 #projects{font-family: "Futura"; color:#E3262A;
 			font-weight: bold;}
+#projects:hover{
+	color:white;
+}
 
 body{
 	background-color: #FFA89D;
