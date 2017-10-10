@@ -1,0 +1,23 @@
+
+.box {
+    border: 1px dotted #FFF;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+br {
+    clear: both;
+}
+
+h1 {
+	font-family:sans-serif;
+}
