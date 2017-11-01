@@ -1,411 +1,406 @@
-function mins() {
-	var date = new Date()
-	var minutes = date.getMinutes()
-
-}
 
 
 function updateTime() {
 
-	var clockHolder = document.getElementById("clock")
 	var now = new Date()
 	var minutes = now.getMinutes()
 	now = now.toTimeString()
 
 	
+	console.log(minutes)
 
-
-		var circle1 = document.getElementById("circle1") 
+		var circle1 = document.getElementsByClassName("circle1")[0]
 		if (minutes == 0) {
-			circle1.style.color = "#DC9896"
+			circle1.style.backgroundColor = "#DC9896"
 		}
 
 
 
-		var circle2 = document.getElementById("circle2")
+		var circle2 = document.getElementsByClassName("circle2")[0]
 		if (minutes == 1) {
-			circle2.style.color = "#DC9492"
+			circle2.style.backgroundColor = "#DC9492"
 		}
 
 
 
-		var circle3 = document.getElementById("circle3") 
+		var circle3 = document.getElementsByClassName("circle3")[0] 
 		if (minutes == 2) {
-			circle3.style.color = "#DC9290"
+			circle3.style.backgroundColor = "#DC9290"
 		}
 
 
 
-		var circle4 = document.getElementById("circle4") 
+		var circle4 = document.getElementsByClassName("circle4")[0] 
 		if (minutes == 3) {
-			circle4.style.color = "#DC918E"
+			circle4.style.backgroundColor = "#DC918E"
 		}
 
 
-		var circle5 = document.getElementById("circle5") 
+		var circle5 = document.getElementsByClassName("circle5")[0] 
 		if (minutes == 4) {
-			circle5.style.color = "#DC908C" 
+			circle5.style.backgroundColor = "#DC908C" 
 		}
 
 
-		var circle6 = document.getElementById("circle6") 
+		var circle6 = document.getElementsByClassName("circle6")[0] 
 		if (minutes == 5) {
-			circle6.style.color = "#DC908B"
+			circle6.style.backgroundColor = "#DC908B"
 		}
 
 
-		var circle7 = document.getElementById("circle7") 
+		var circle7 = document.getElementsByClassName("circle7")[0] 
 		if (minutes == 6) {
-			circle7.style.color = "#DC8F89"
+			circle7.style.backgroundColor = "#DC8F89"
 		}
 
 
-		var circle8 = document.getElementById("circle8") 
+		var circle8 = document.getElementsByClassName("circle8")[0] 
 		if (minutes == 7) {
-			circle8.style.color = "#DC8D87"
+			circle8.style.backgroundColor = "#DC8D87"
 		}
 
 
-		var circle9 = document.getElementById("circle9") 
+		var circle9 = document.getElementsByClassName("circle9")[0] 
 		if (minutes == 8) {
-			circle9.style.color = "#DC8B84"
+			circle9.style.backgroundColor = "#DC8B84"
 		}
 
 
-		var circle10 = document.getElementById("circle10") 
+		var circle10 = document.getElementsByClassName("circle10")[0] 
 		if (minutes == 9) {
-			circle10.style.color = "#DC8981"
+			circle10.style.backgroundColor = "#DC8981"
 		}
 
 
-		var circle11 = document.getElementById("circle11") 
+		var circle11 = document.getElementsByClassName("circle11")[0] 
 		if (minutes == 10) {
-			circle11.style.color = "#DC887F"
+			circle11.style.backgroundColor = "#DC887F"
 		}
 
 
-		var circle12 = document.getElementById("circle12") 
+		var circle12 = document.getElementsByClassName("circle12")[0] 
 		if (minutes == 11) {
-			circle12.style.color = "#DC867D"
+			circle12.style.backgroundColor = "#DC867D"
 		}
 
 
-		var circle13 = document.getElementById("circle13") 
+		var circle13 = document.getElementsByClassName("circle13")[0] 
 		if (minutes == 12) {
-			circle13.style.color = "#DC847A"
+			circle13.style.backgroundColor = "#DC847A"
 		}
 
 
-		var circle14 = document.getElementById("circle14") 
+		var circle14 = document.getElementsByClassName("circle14")[0] 
 		if (minutes == 13) {
-			circle14.style.color = "#DC8277"
+			circle14.style.backgroundColor = "#DC8277"
 		}
 
 
-		var circle15 = document.getElementById("circle15") 
+		var circle15 = document.getElementsByClassName("circle15")[0] 
 		if (minutes == 14) {
-			circle15.style.color = "#DC8075"
+			circle15.style.backgroundColor = "#DC8075"
 		}
 
 
-		var circle16 = document.getElementById("circle16") 
+		var circle16 = document.getElementsByClassName("circle16")[0] 
 		if (minutes == 15) {
-			circle16.style.color = "#DC7B6F"
+			circle16.style.backgroundColor = "#DC7B6F"
 		}
 
 
-		var circle17 = document.getElementById("circle17") 
+		var circle17 = document.getElementsByClassName("circle17")[0] 
 		if (minutes == 16) {
-			circle17.style.color = "#DC776C"
+			circle17.style.backgroundColor = "#DC776C"
 		}
 
 
-		var circle18 = document.getElementsById("circle18") 
+		var circle18 = document.getElementsByClassName("circle18")[0] 
 		if (minutes == 17) {
-			circle18.style.color = "#DC7267"
+			circle18.style.backgroundColor = "#DC7267"
 		}
 
 
 
-		var circle19 = document.getElementById("circle19") 
+		var circle19 = document.getElementsByClassName("circle19")[0] 
 		if (minutes == 18) {
-			circle19.style.color = "#DC6E64"
+			circle19.style.backgroundColor = "#DC6E64"
 		}
 
 
-		var circle20 = document.getElementById("circle20") 
+		var circle20 = document.getElementsByClassName("circle20")[0] 
 		if (minutes == 19) {
-			circle20.style.color = "#DC6B62"
+			circle20.style.backgroundColor = "#DC6B62"
 		}
 
 
-		var circle21 = document.getElementById("circle21") 
+		var circle21 = document.getElementsByClassName("circle21")[0] 
 		if (minutes == 20) {
-			circle21.style.color = "#DC685F"
+			circle21.style.backgroundColor = "#DC685F"
 		}
 
 
-		var circle22 = document.getElementById("circle22") 
+		var circle22 = document.getElementsByClassName("circle22")[0] 
 		if (minutes == 21) {
-			circle22.style.color = "#DC655D"
+			circle22.style.backgroundColor = "#DC655D"
 		}
 
 
 
-		var circle23 = document.getElementById("circle23") 
+		var circle23 = document.getElementsByClassName("circle23")[0] 
 		if (minutes == 22) {
-			circle23.style.color = "#DC625A"
+			circle23.style.backgroundColor = "#DC625A"
 		}
 
 
-		var circle24 = document.getElementById("circle24") 
+		var circle24 = document.getElementsByClassName("circle24")[0] 
 		if (minutes == 23) {
-			circle24.style.color = "#DC5D56"
+			circle24.style.backgroundColor = "#DC5D56"
 		}
 
 
 
-		var circle25 = document.getElementById("circle25") 
+		var circle25 = document.getElementsByClassName("circle25")[0] 
 		if (minutes == 24) {
-			circle25.style.color = "#DC5953"
+			circle25.style.backgroundColor = "#DC5953"
 		}
 
 
 
-		var circle26 = document.getElementById("circle26") 
+		var circle26 = document.getElementsByClassName("circle26")[0] 
+
 		if (minutes == 25) {
-			circle26.style.color = "#DC5750"
+			circle26.style.backgroundColor = "#DC5750"
 		}
 
 
 
 
-		var circle27 = document.getElementById("circle27") 
+		var circle27 = document.getElementsByClassName("circle27")[0] 
 		if (minutes == 26) {
-			circle27.style.color = "#DC524C"
+			circle27.style.backgroundColor = "#DC524C"
 		}
 
 
 
-		var circle28 = document.getElementById("circle28") 
+		var circle28 = document.getElementsByClassName("circle28")[0] 
 		if (minutes == 27) {
-			circle28.style.color = "#DC4F49"
+			circle28.style.backgroundColor = "#DC4F49"
 
 		}
 
 
 
 
-		var circle29 = document.getElementById("circle29") 
+		var circle29 = document.getElementsByClassName("circle29")[0] 
 		if (minutes == 28) {
-			circle29.style.color = "#DC4B45"
+			circle29.style.backgroundColor = "#DC4B45"
 		}
 
 
 
-		var circle30 = document.getElementById("circle30") 
+		var circle30 = document.getElementsByClassName("circle30")[0] 
 		if (minutes == 29) {
-			circle30.style.color = "#DC4741"
+			circle30.style.backgroundColor = "#DC4741"
 		}
 
 
 
-		var circle31 = document.getElementById("circle31") 
+		var circle31 = document.getElementsByClassName("circle31")[0] 
 		if (minutes == 30) {
-			circle31.style.color = "#DC443D"
+			circle31.style.backgroundColor = "#DC443D"
 		}
 
-		var circle32 = document.getElementById("circle32") 
+		var circle32 = document.getElementsByClassName("circle32")[0] 
 		if (minutes == 31) {
-			circle32.style.color = "#DC413A"
+			circle32.style.backgroundColor = "#DC413A"
 		}
 
 
 
-		var circle33 = document.getElementById("circle33") 
+		var circle33 = document.getElementsByClassName("circle33")[0] 
 		if (minutes == 1) {
-			circle32.style.color = "#DC3C37"
+			circle32.style.backgroundColor = "#DC3C37"
 		}
 
 
 
-		var circle34 = document.getElementById("circle34") 
+		var circle34 = document.getElementsByClassName("circle34")[0] 
 		if (minutes == 33) {
-			circle34.style.color = "#DC3934"
+			circle34.style.backgroundColor = "#DC3934"
 		}
 
 
 
-		var circle35 = document.getElementById("circle35") 
+		var circle35 = document.getElementsByClassName("circle35")[0] 
 		if (minutes == 34) {
-			circle35.style.color = "#DC3631"
+			circle35.style.backgroundColor = "#DC3631"
 		}
 
 
-		var circle36 = document.getElementById("circle36") 
+		var circle36 = document.getElementsByClassName("circle36")[0] 
 		if (minutes == 35) {
-			circle36.style.color = "#DC342F" 
+			circle36.style.backgroundColor = "#DC342F" 
 		}
 
 
-		var circle37 = document.getElementById("circle37") 
+		var circle37 = document.getElementsByClassName("circle37")[0] 
 		if (minutes == 36) {
-			circle37.style.color = "#DC312C"
+			circle37.style.backgroundColor = "#DC312C"
 		}
 
 
-		var circle38 = document.getElementById("circle38") 
+		var circle38 = document.getElementsByClassName("circle38")[0] 
 		if (minutes == 37) {
-			circle38.style.color = "#DC2D29"
+			circle38.style.backgroundColor = "#DC2D29"
 		}
 
 
-		var circle39 = document.getElementById("circle39") 
+		var circle39 = document.getElementsByClassName("circle39")[0] 
 		if (minutes == 38) {
-			circle39.style.color = "#DC2A29"
+			circle39.style.backgroundColor = "#DC2A29"
 		}
 
 
-		var circle40 = document.getElementById("circle40") 
+		var circle40 = document.getElementsByClassName("circle40")[0] 
 		if (minutes == 39) {
-			circle40.style.color = "#DC272B"
+			circle40.style.backgroundColor = "#DC272B"
 		}
 
 
-		var circle41 = document.getElementById("circle41") 
+		var circle41 = document.getElementsByClassName("circle41")[0] 
 		if (minutes == 40) {
-			circle41.style.color = "#DC2430"
+			circle41.style.backgroundColor = "#DC2430"
 		}
 
 
-		var circle42 = document.getElementById("circle42") 
+		var circle42 = document.getElementsByClassName("circle42")[0] 
 		if (minutes == 41) {
-			circle42.style.color = "#DC2134"
+			circle42.style.backgroundColor = "#DC2134"
 		}
 
 
-		var circle43 = document.getElementById("circle43") 
+		var circle43 = document.getElementsByClassName("circle43")[0] 
 		if (minutes == 42) {
-			circle43.style.color = "#DC1F3B"
+			circle43.style.backgroundColor = "#DC1F3B"
 		}
 
 
-		var circle44 = document.getElementById("circle44") 
+		var circle44 = document.getElementsByClassName("circle44")[0] 
 		if (minutes == 43) {
-			circle44.style.color = "#D71F3B"
+			circle44.style.backgroundColor = "#D71F3B"
 		}
 
 
-		var circle45 = document.getElementById("circle45") 
+		var circle45 = document.getElementsByClassName("circle45")[0] 
 		if (minutes == 44) {
-			circle45.style.color = "#D31F3B"
+			circle45.style.backgroundColor = "#D31F3B"
 		}
 
 
-		var circle46 = document.getElementById("circle46") 
+		var circle46 = document.getElementsByClassName("circle46")[0] 
 		if (minutes == 45) {
-			circle46.style.color = "#CF1F3B"
+			circle46.style.backgroundColor = "#CF1F3B"
 		}
 
 
-		var circle47 = document.getElementById("circle47") 
+		var circle47 = document.getElementsByClassName("circle47")[0] 
 		if (minutes == 46) {
-			circle47.style.color = "#C91F3B"
+			circle47.style.backgroundColor = "#C91F3B"
 		}
 
 
-		var circle48 = document.getElementById("circle48") 
+		var circle48 = document.getElementsByClassName("circle48")[0] 
 		if (minutes == 47) {
-			circle48.style.color = "#C61F3B"
+			circle48.style.backgroundColor = "#C61F3B"
 		}
 
 
-		var circle49 = document.getElementsById("circle49") 
+		var circle49 = document.getElementsByClassName("circle49")[0] 
 		if (minutes == 48) {
-			circle49.style.color = "#9E1931"
+			circle49.style.backgroundColor = "#9E1931"
 		}
 
 
 
-		var circle50 = document.getElementById("circle50") 
+		var circle50 = document.getElementsByClassName("circle50")[0] 
 		if (minutes == 49) {
-			circle50.style.color = "#9C1931"
+			circle50.style.backgroundColor = "#9C1931"
 		}
 
 
-		var circle51 = document.getElementById("circle51") 
+		var circle51 = document.getElementsByClassName("circle51")[0] 
 		if (minutes == 50) {
-			circle51.style.color = "#991931"
+			circle51.style.backgroundColor = "#991931"
 		}
 
 
-		var circle52 = document.getElementById("circle52") 
+		var circle52 = document.getElementsByClassName("circle52")[0] 
 		if (minutes == 51) {
-			circle52.style.color = "#951931"
+			circle52.style.backgroundColor = "#951931"
 		}
 
 
-		var circle53 = document.getElementById("circle53") 
+		var circle53 = document.getElementsByClassName("circle53")[0] 
 		if (minutes == 52) {
-			circle53.style.color = "#901931"
+			circle53.style.backgroundColor = "#901931"
 		}
 
 
 
-		var circle54 = document.getElementById("circle54") 
+		var circle54 = document.getElementsByClassName("circle54")[0] 
 		if (minutes == 53) {
-			circle54.style.color = "#8D1931"
+			circle54.style.backgroundColor = "#8D1931"
 		}
 
 
-		var circle55 = document.getElementById("circle55") 
+		var circle55 = document.getElementsByClassName("circle55")[0] 
 		if (minutes == 54) {
-			circle55.style.color = "#891931"
+			circle55.style.backgroundColor = "#891931"
 		}
 
 
 
-		var circle56 = document.getElementById("circle56") 
+		var circle56 = document.getElementsByClassName("circle56")[0] 
 		if (minutes == 55) {
-			circle56.style.color = "#861931"
+			circle56.style.backgroundColor = "#861931"
 		}
 
 
 
-		var circle57 = document.getElementById("circle57") 
+		var circle57 = document.getElementsByClassName("circle57")[0] 
 		if (minutes == 56) {
-			circle57.style.color = "#821931"
+			circle57.style.backgroundColor = "#821931"
 		}
 
 
 
 
-		var circle58 = document.getElementById("circle58") 
+		var circle58 = document.getElementsByClassName("circle58")[0] 
 		if (minutes == 57) {
-			circle58.style.color = "#7F1931"
+			circle58.style.backgroundColor = "#7F1931"
 		}
 
 
 
-		var circle59 = document.getElementById("circle59") 
+		var circle59 = document.getElementsByClassName("circle59")[0] 
 		if (minutes == 58) {
-			circle59.style.color = "#7C1931"
+			circle59.style.backgroundColor = "#7C1931"
 
 		}
 
 
 
 
-		var circle60 = document.getElementById("circle60") 
+		var circle60 = document.getElementsByClassName("circle60")[0] 
 		if (minutes == 59) {
-			circle60.style.color = "#781931"
+			circle60.style.backgroundColor = "#781931"
 		}
 
 
 		 
 	}
 
-	setInterval (update, 1000) 
+	setInterval (updateTime, 1000) 
 
 
 
