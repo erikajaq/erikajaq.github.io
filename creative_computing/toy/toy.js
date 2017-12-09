@@ -14,21 +14,21 @@ var redBall = document.getElementsByClassName('redball')[0]
 redBall.addEventListener("click", handleClick)
 
 function handleClick(evt) {
-	redBall.style.left = "650px";
+	redBall.style.left = "650px"; redBall.style.backgroundColor = "white";
 }
 
 
 var blueBall = document.getElementsByClassName('blueball')[0]
 blueBall.addEventListener("click", handleClick2)
 function handleClick2(evt) {
-	blueBall.style.left = "570px";
+	blueBall.style.left = "570px"; blueBall.style.backgroundColor = "black";
 }
 
 
 var greenBall = document.getElementsByClassName('greenball')[0]
 greenBall.addEventListener("click", handleClick3)
 function handleClick3(evt) {
-	greenBall.style.left = "750px";
+	greenBall.style.left = "750px"; greenBall.style.backgroundColor = "white";
 }
 
 var yellowBall = document.getElementsByClassName('yellowball')[0]
@@ -36,25 +36,27 @@ yellowBall.addEventListener("click", handleClick4)
 function handleClick4(evt){
 	yellowBall.style.left = "750px";
 	yellowBall.style.top = "400px";
+    yellowBall.style.backgroundColor = "black";
 }
 
 var orangeBall = document.getElementsByClassName('orangeball')[0]
 orangeBall.addEventListener("click", handleClick5)
 function handleClick5(evt){
-	orangeBall.style.left = "850px";
+	orangeBall.style.left = "850px"; orangeBall.style.backgroundColor = "white";
 }
 
 var pinkBall = document.getElementsByClassName('pinkball')[0]
 pinkBall.addEventListener("click", handleClick6)
 function handleClick6(evt){
 	pinkBall.style.left = "550px";
-	pinkBall.style.top = "400px";
+	pinkBall.style.top = "400px"; 
+    pinkBall.style.backgroundColor = "black";
 }
 
 var purpleBall = document.getElementsByClassName('purpleball')[0]
 purpleBall.addEventListener("click", handleClick7)
 function handleClick7(evt){
-	purpleBall.style.left = "775px"; 
+	purpleBall.style.left = "775px"; purpleBall.style.backgroundColor = "white";
 }
 
 var aquaBall = document.getElementsByClassName('aquaball')[0]
@@ -62,6 +64,7 @@ aquaBall.addEventListener("click", handleClick8)
 function handleClick8(evt){
 	aquaBall.style.left = "655px"; 
 	aquaBall.style.top = "300px";
+    aquaBall.style.backgroundColor = "black";
 }
 
 
