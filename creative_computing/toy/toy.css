@@ -1,0 +1,211 @@
+body{
+background-color: #F4B8F7;
+}
+
+#cornpopper {
+	position: absolute;
+}
+
+.container {
+	position: absolute;
+	background-color: #55b0ff;
+	width:500px;
+	height:500px;
+	top:5px;
+	left:490px;
+	clip-path: circle(50% at 50% 94%);
+}
+
+.base{
+	position:absolute;
+	background-color: white;
+	width: 520px;
+	height: 70px;
+	border-radius: 20px;
+	top:502px;
+	left:480px;
+}
+
+.wheel1{
+	position:absolute;
+	background-color: #fc0c2f;
+	width: 180px;
+	height: 180px;
+	border-radius:100px;
+	top:500px;
+	left:400px;
+}
+
+.innerwheel1{
+	position:absolute;
+	background-color: #e20e2d;
+	width: 80px;
+	height: 90px;
+	border-radius:100px;
+	top:545px;
+	left:450px;
+
+}
+
+.innerwheel2{
+	position:absolute;
+	background-color: #e20e2d;
+	width: 80px;
+	height: 90px;
+	border-radius:100px;
+	top:545px;
+	left:950px;
+
+}
+
+.wheel2{
+	position:absolute;
+	background-color: #fc0c2f;
+	width: 180px;
+	height: 180px;
+	border-radius:100px;
+	top:500px;
+	left:900px;
+}
+
+.wheelshine1{
+	background-color:white;
+	width:20px;
+	height:40px;
+	position:absolute;
+	top:545px;
+	left:535px;
+	border-radius: 130px;
+	transform:rotate(-20deg);
+
+}
+
+.wheelshine2{
+	background-color:white;
+	width:20px;
+	height:40px;
+	position:absolute;
+	top:545px;
+	left:1035px;
+	border-radius: 130px;
+	transform:rotate(-20deg);
+
+}
+
+
+.handle{
+	 font-size: 10em; /* This controls the size. */
+	 display: inline-block;
+	 width: 0.4em;
+	 height: 0.4em;
+	 border: 0.1em solid red;
+	 position: absolute;
+	 left:29px;
+	 border-radius: 0.35em;
+	}
+	
+.stick{
+	position:absolute;
+	background-color: #fc0c2f;
+	width: 580px;
+	height: 20px;
+	top:280px;
+	transform: rotate(48deg);
+
+}
+
+.containershine{
+	background-color:white;
+	width:30px;
+	height:50px;
+	position:absolute;
+	top:280px;
+	left:870px;
+	border-radius: 130px;
+	transform:rotate(-45deg);
+}
+
+.redball{
+	position:absolute;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:240px;
+	left:700px;
+}
+
+.blueball{
+	position:absolute;
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:400px;
+	left:800px;
+}
+
+.greenball{
+	position:absolute;
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:300px;
+	left:800px;
+}
+
+.yellowball{
+	position:absolute;
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:340px;
+	left:700px;
+}
+
+.orangeball{
+	position:absolute;
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:400px;
+	left:600px;
+}
+
+.pinkball{
+	position:absolute;
+	background-color: pink;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:300px;
+	left:600px;
+}
+
+.purpleball{
+	position:absolute;
+	background-color: purple;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:350px;
+	left:875px;
+
+}
+
+.aquaball{
+	position:absolute;
+	background-color: aqua;
+	width: 100px;
+	height: 100px;
+	border-radius:100px;
+	top:350px;
+	left:525px;
+
+}
+
+
+
