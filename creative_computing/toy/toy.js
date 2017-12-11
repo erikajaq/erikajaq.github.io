@@ -1,15 +1,4 @@
-//making the balls move around when i click//
 
-/*document.addEventListener("click", handleClick)
-
-function handleClick(evt) {
-
-
-	var redBall = document.getElementsByClassName('redball')[0]
-
-	redBall.style.left = "650px"; 
-
-} */
 var redBall = document.getElementsByClassName('redball')[0]
 redBall.addEventListener("click", handleClick)
 
